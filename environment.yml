@@ -1,0 +1,14 @@
+name: mlops
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - jupyterlab
+  - seaborn
+  - scikit-learn
+  - pandas
+  - pip
+  - pip:
+    - tensorflow

@@ -1,0 +1,83 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ===== Virtual envs / Conda =====
+.venv/
+venv/
+env/
+ENV/
+# (evite commitar ambientes conda)
+# se você usa conda-pack ou algo semelhante, ignore também:
+*.conda
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# (opcional) outputs do Jupyter (geralmente NÃO se ignora .ipynb)
+# *.ipynb
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ===== Logs =====
+*.log
+logs/
+log/
+
+# ===== Data / Artefatos (MLOps) =====
+data/
+datasets/
+raw/
+processed/
+interim/
+external/
+artifacts/
+outputs/
+models/
+checkpoints/
+runs/
+
+# ===== MLflow =====
+mlruns/
+mlartifacts/
+
+# ===== DVC =====
+.dvc/cache/
+.dvc/tmp/
+
+# ===== Terraform (se usar infra) =====
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# ===== Secrets (nunca commitar) =====
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
