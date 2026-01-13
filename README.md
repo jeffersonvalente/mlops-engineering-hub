@@ -1,4 +1,4 @@
-# MLOps Engineering Hub 🚀
+# MLOps Engineering Hub
 
 Este repositório é um portfólio progressivo focado em **Engenharia de Machine Learning (MLOps)**. Aqui, documento a implementação de padrões, ferramentas e fluxos de trabalho necessários para levar modelos de ML do ambiente de experimentação para sistemas de produção robustos e confiáveis.
 
@@ -6,7 +6,7 @@ Diferente de repositórios de Data Science tradicionais, o foco aqui não é ape
 
 ---
 
-## 🎯 Pilares Técnicos
+## Pilares Técnicos
 - **Pipelines de Produção:** Orquestração e automação de fluxos (TFX, Prefect/Airflow).
 - **Data-Centric AI:** Qualidade de dados, validação de esquemas e detecção de *skew/drift* (TFDV).
 - **Serving & Infra:** Deploy escalável com FastAPI, Docker, Kubernetes e TF Serving.
@@ -15,13 +15,13 @@ Diferente de repositórios de Data Science tradicionais, o foco aqui não é ape
 
 ---
 
-## 🚀 Roadmap de Projetos
+## Roadmap de Projetos
 
 Abaixo, a lista de implementações práticas. O repositório evolui de experimentos controlados para pipelines complexos de produção.
 
 | Status | # | Projeto | Foco Principal |
 | :--- | :---: | :--- | :--- |
-| 🚀 **Ativo** | 2 | [Birds, Cats, and Dogs](./projects/birds-cats-dogs/README.md) | CNN, Data-centric AI, tratamento de desbalanceamento e Data Augmentation. |
+| **Ativo** | 2 | [Birds, Cats, and Dogs](./projects/birds-cats-dogs/README.md) | CNN, Data-centric AI, tratamento de desbalanceamento e Data Augmentation. |
 | 📅 Planejado | 3 | YouTube Spam | Estratégias de rotulagem, performance e análise de erros. |
 | 📅 Planejado | 4 | Earnings Predictor | Estatísticas de dados e detecção de anomalias com TFDV. |
 | 📅 Planejado | 5 | Patient Readmission | Schema inference, validação avançada e Data Validation. |
@@ -30,7 +30,7 @@ Abaixo, a lista de implementações práticas. O repositório evolui de experime
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Stack Tecnológica
 - **Linguagem:** Python (Ambientes isolados com Conda/WSL2)
 - **Frameworks:** TensorFlow, Keras, Scikit-learn
 - **MLOps:** TFX, TFDV, TFMA, ML Metadata
@@ -39,7 +39,7 @@ Abaixo, a lista de implementações práticas. O repositório evolui de experime
 
 ---
 
-## 🧠 Por que este repositório existe?
+## Por que este repositório existe?
 O objetivo é demonstrar a aplicação prática dos conceitos de **Machine Learning Engineering for Production**. Cada projeto resolve um desafio real de engenharia, como:
 - **Reprodutibilidade:** Como garantir que o modelo treinado hoje possa ser replicado exatamente igual amanhã?
 - **Data Drift:** O que acontece quando os dados de produção mudam em relação ao treino?
@@ -48,7 +48,7 @@ O objetivo é demonstrar a aplicação prática dos conceitos de **Machine Learn
 
 ---
 
-## ⭐ Contato
+## Contato
 Desenvolvido por **Jefferson Hoy Valente**.  
 Vamos trocar ideias no [LinkedIn](https://www.linkedin.com/in/jefferson-hoy-valente/)!
 
