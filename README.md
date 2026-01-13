@@ -21,7 +21,7 @@ Abaixo, a lista de implementações práticas. O repositório evolui de experime
 
 | Status | # | Projeto | Foco Principal |
 | :--- | :---: | :--- | :--- |
-| **Ativo** | 2 | [Birds, Cats, and Dogs](./projects/birds-cats-dogs/README.md) | CNN, Data-centric AI, tratamento de desbalanceamento e Data Augmentation. |
+| **Ativo** | 2 | [Birds, Cats, and Dogs](https://github.com/jeffersonvalente/mlops-engineering-hub/blob/main/birds_cats_dogs/README.md) | CNN, Data-centric AI, tratamento de desbalanceamento e Data Augmentation. |
 | 📅 Planejado | 3 | YouTube Spam | Estratégias de rotulagem, performance e análise de erros. |
 | 📅 Planejado | 4 | Earnings Predictor | Estatísticas de dados e detecção de anomalias com TFDV. |
 | 📅 Planejado | 5 | Patient Readmission | Schema inference, validação avançada e Data Validation. |
